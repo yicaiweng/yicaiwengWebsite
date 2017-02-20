@@ -1,0 +1,91 @@
+body{
+  font-family: 'Lato', Arial, Helvetica, sans-serif;;
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+  background: #C0DA81;
+}
+
+/*global*/
+.container{
+  width: 80%;
+  margin: auto;
+  overflow:hidden;
+}
+.frontPage{
+  min-height: 600px;
+  text-align: center;
+  color: white;
+}
+
+.frontPage h1{
+  text-align: center;
+  font-size: 130px;
+  font-weight: bold;
+  margin-top: 2em;
+  margin-bottom: 0em;
+}
+
+.frontPage p{
+  text-align: center;
+  font-size: 40px;
+  margin-top: -1em;
+}
+
+.nextPageButton{
+  min-height: 50px;
+  background: #ffffff;
+  color: #C0DA81;
+  border: 1px dotted #cccccc;
+  border-radius: 50%;
+  text-decoration: none;
+  padding: 20px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header{
+  min-height: 100px;
+  background-color: #C0DA81;
+  text-align: center;
+}
+
+.nav li{
+  display: inline;
+  padding: 0 10px 0 10px;
+  font-size: 25px;
+}
+
+.nav a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.nav a:hover{
+  font-weight: bold;
+  color: #287BDD;
+}
+
+/*mainpage style*/
+.aboutpage, .contactmePage, .resumePage{
+  color: #ffffff;
+  margin: auto;
+  min-height: 600px;
+  font-size: 30px;
+  text-align: center;
+  margin-top: -2em;
+}
+
+/*footer*/
+.footer{
+  background-color: #C0DA81;
+  min-height: 100px;
+  margin-top: 5px;
+}
+
+.footer p{
+  color: #FFFFFF;
+  font-size: 20px;
+  text-align: center;
+}
