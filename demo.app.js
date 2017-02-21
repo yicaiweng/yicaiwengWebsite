@@ -1,12 +1,12 @@
 
-var app = angular.module('demo', ['ngRoute']);
+angular.module('demo', ['ngRoute'])
 
-app.config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider){
+.config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider){
 	$routeProvider
-		// .when('/',{
-		// 	templateUrl: '/index.html'
+		// .when('/index',{
+		// 	templateUrl: '/home.html'
 		// })
-		.when('/navPage.html',{
+		.when('/navPage',{
 			templateUrl: '/views/navPage.html'
 		})
 		.when('/about',{
