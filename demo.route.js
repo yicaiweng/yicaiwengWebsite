@@ -1,10 +1,10 @@
-// 
+//
 // angular.module('demo', ['ngRoute'])
 //
 // .config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider){
 // 	$routeProvider
 // 		.when('/',{
-// 			templateUrl: '/index.html'
+// 			templateUrl: 'views/welcome/welcome.html'
 // 		})
 // 		.when('/welcome',{
 // 			templateUrl:'/views/welcome/welcome.html'
@@ -27,49 +27,50 @@
 // }]);
 
 
-// angular.module('demo',['ui.router'])
-//   .config(function($stateProvider){
-//     $stateProvider
-//       .state('home', {
-//         url: '/',
-//         component:'mainPageLayout',
-//         resolve: {
-//           essentials: function(EssentialsService) {
-//             return EssentialsService.getEssentials();
-//           }
-//         }
-//       })
-//       .state('default', {
-//           url: '',
-//           component:'mainPageLayout',
-//           resolve: {
-//             essentials: function(EssentialsService) {
-//               return EssentialsService.getEssentials();
-//             }
-//           }
-//         })
-//       .state('about',{
-//         url:'/about',
-//         component:'aboutPageLayout'
-//       })
-//       .state('contactUs',{
-//         url:'/contactUs',
-//         component:'contactUsPageLayout'
-//       })
-//       .state('signIn',{
-//         url:'/signIn',
-//         component:'signInPageLayout'
-//       })
-//       .state('signUp',{
-//         url:'/signUp',
-//         component:'signUpPageLayout'
-//       })
-//       .state('forgotPassword',{
-//         url:'/forgotPassword',
-//         component:'forgotPasswordPageLayout'
-//       })
-//       .state('term',{
-//         url:'/term',
-//         component:'termPageLayout'
-//       })
-//   })
+angular.module('demo',['ui.router','views', 'components'])
+  .config(function($stateProvider, $urlRouterProvider){
+    $urlRouterProvider.otherwise('/');
+
+    $stateProvider
+      .state('home', {
+        url: '/',
+        component:'welcomePage'
+      })
+      .state('default', {
+        url: '',
+        component:'welcomePage'
+      })
+      .state('about',{
+        url:'/about',
+        component:'aboutPage'
+      })
+      .state('contactMe',{
+        url:'/contactMe',
+        component:'contactMePage'
+      })
+      .state('resume',{
+        url:'/resume',
+        component:'resumePage'
+      })
+  });
+
+
+  // angular.module('demo',['ui.router'])
+  //   .config(function($stateProvider){
+  //     $stateProvider
+  //       .state('home', {
+  //         templateUrl:'/views/welcome/welcome.html'
+  //       })
+  //       .state('default', {
+  //         templateUrl:"/views/welcome/welcome.html"
+  //       })
+  //       .state('about',{
+  //         templateUrl:"/views/about/about.html"
+  //       })
+  //       .state('contactMe',{
+  //         templateUrl:"/views/contactMe/contactMe.html"
+  //       })
+  //       .state('resume',{
+  //         templateUrl:"/views/resume/resume.html"
+  //       })
+  //   })

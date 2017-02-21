@@ -9,7 +9,6 @@
   <title>Yicai Weng | Welcome</title>
         <!-- stylesheet -->
   <link rel="stylesheet" href="/css/index.css" />
-  <link rel="stylesheet" href="/views/about/about.css" />
         <!-- custon font -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato"></head>
         <!-- angularJS -->
@@ -23,17 +22,18 @@
   <script src="demo.app.js"></script>
   <script src="demo.route.js"></script>
         <!-- views -->
-  <script src="views/about/about.js"></script>
-  <script src="views/resume/resume.js"></script>
-  <script src="views/welcome/welcome.js"></script>
-  <script src="views/contact_me/contact_me.js"></script>
+  <script src="views/about-page/about-page.js"></script>
+  <script src="views/resume-page/resume-page.js"></script>
+  <script src="views/welcome-page/welcome-page.js"></script>
+  <script src="views/contactMe-page/contactMe-page.js"></script>
   <script src="views/views.js"></script>
 </head>
 
   <nav-bar></nav-bar>
 
   <body>
-    <!-- <div ng-view></div> -->
+    <div ui-view></div>
+    <h1>loading...</h1>
   </body>
 
   <footer-bar></footer-bar>

@@ -1,6 +1,6 @@
 angular.module('views',[
-  'about',
-  'contact_me',
-  'resume',
-  'welcome'
+  'about-page',
+  'contactMe-page',
+  'resume-page',
+  'welcome-page'
 ]);
