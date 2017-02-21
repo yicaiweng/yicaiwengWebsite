@@ -1,4 +1,4 @@
 angular.module('components',[
   'nav-bar',
-  'footer-bar',
+  'footer-bar'
 ]);
