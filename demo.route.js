@@ -26,7 +26,6 @@
 //
 // }]);
 
-
 angular.module('demo',['ui.router','views', 'components'])
   .config(function($stateProvider, $urlRouterProvider){
     $urlRouterProvider.otherwise('/');
@@ -36,10 +35,10 @@ angular.module('demo',['ui.router','views', 'components'])
         url: '/',
         component:'welcomePage'
       })
-      .state('default', {
-        url: '',
-        component:'welcomePage'
-      })
+      // .state('default', {
+      //   url: '',
+      //   component:'welcomePage'
+      // })
       .state('about',{
         url:'/about',
         component:'aboutPage'

@@ -1,11 +1,11 @@
-body{
+/*body{
   font-family: 'Lato', Arial, Helvetica, sans-serif;;
   font-size: 15px;
   line-height: 1.5;
   padding: 0;
   margin: 0;
   background: #C0DA81;
-}
+}*/
 
 /*global*/
 .container{
@@ -21,15 +21,13 @@ body{
 
 .frontPage h1{
   text-align: center;
-  font-size: 130px;
+  font-size: 80px;
   font-weight: bold;
-  margin-top: 2em;
-  margin-bottom: 0em;
 }
 
 .frontPage p{
   text-align: center;
-  font-size: 40px;
+  font-size: 30px;
   margin-top: -1em;
 }
 
