@@ -1,1 +1,30 @@
 
+.aboutpage{
+  background-color: #2C313C;
+  color: #D4CEC2;
+  margin: auto;
+  min-height: 600px;
+  font-size: 30px;
+}
+.profile{
+  float:left;
+}
+
+.aboutpage  h2{
+  text-align: center;
+}
+
+.aboutpage img{
+  display: block;
+  margin-top: 2em;
+}
+
+.content{
+  font-size: 29px;
+  margin-left:  350px;
+  margin-top: -4em;
+}
+
+.content p{
+  text-indent: 50px;
+}

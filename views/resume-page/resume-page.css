@@ -1,0 +1,46 @@
+.resumePage{
+  background-color: #f7f7f7;
+  color: #f7f7f7;
+  margin: auto;
+  min-height: 600px;
+  text-align: center;
+}
+
+.firstRow{
+  width:100%;
+  margin-top: 20px;
+}
+
+.education{
+  float: left;
+  padding: 10px;
+  width: 45%;
+  min-height: 174px;
+  background-color: #717EB8;
+}
+
+.skills{
+  float:right;
+  width: 50%;
+  padding: 10px;
+  min-height: 174px;
+  background-color: #C1D563;
+}
+
+.employee {
+  margin-top: 225px;
+  text-align: center;
+  background-color: #E17D4E;
+  padding: 10px;
+}
+
+.courses{
+  margin-top: 10px;
+  background-color: #F1C043;
+  padding: 10px;
+}
+
+.courses a{
+  text-decoration: none;
+  color: #f7f7f7;
+}

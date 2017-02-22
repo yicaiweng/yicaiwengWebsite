@@ -1,0 +1,12 @@
+.contactMePage{
+  background-color: #F4AD58;
+  color: #ffffff;
+  margin: auto;
+  min-height: 600px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.contactMePage a{
+  text-decoration: none;
+}

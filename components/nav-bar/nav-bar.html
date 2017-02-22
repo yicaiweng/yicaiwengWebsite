@@ -1,10 +1,15 @@
-<nav class='header'>
-  <div class="nav">
-    <ul>
-      <li><a href="#">Welcome</a></li>
-      <li><a ui-sref="about">About</a></li>
-      <li><a ui-sref="resume">Resume</a></li>
-      <li><a ui-sref="contactMe">Contact Me</a></li>
-    </ul>
-  </div>
+
+<nav class='nav'>
+  <div class="container">
+      <div class='nav-left'>
+        <a href="#" ng-class="$ctrl.welcomeClass">Yicai Weng</a>
+      </div>
+      <div class='nav-right'>
+        <ul>
+        <li><a ui-sref="about" ng-class="$ctrl.aboutClass">About</a></li>
+        <li><a ui-sref="resume" ng-class="$ctrl.resumeClass">Resume</a></li>
+        <li><a ui-sref="contactMe" ng-class="$ctrl.contactMeClass">Contact Me</a></li>
+        </ul>
+      </div>
+    </div>
 </nav>
