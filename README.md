@@ -1,5 +1,5 @@
 # yicaiwengWebsite
-
+personal website using angularJS
 
 2/21/17
 ![alt text](https://cloud.githubusercontent.com/assets/13059369/23198514/b9a1a39c-f88d-11e6-92e7-f69c7e5afdc4.png)
