@@ -1,5 +1,18 @@
 # yicaiwengWebsite
-personal website using angularJS
+## Demo single page application website using HTML/CSS/AngularJS
+
+
+2/23/17 
+new color on resume page and contact me page, better readability. 
+added social media icons on the footer, click open new page
+
+![alt text](https://cloud.githubusercontent.com/assets/13059369/23264510/315f10bc-f9a7-11e6-80b3-c130964ea2e8.png)
+![alt text](https://cloud.githubusercontent.com/assets/13059369/23264512/3170f1f6-f9a7-11e6-81a8-58308737ba34.png)
+![alt text](https://cloud.githubusercontent.com/assets/13059369/23264513/3170fad4-f9a7-11e6-978b-c71b23a986e6.png)
+![alt text](https://cloud.githubusercontent.com/assets/13059369/23264511/3170cee2-f9a7-11e6-9d85-5630a74ccc66.png)
+
+------------------------------------------------------------------------------------------------------------------------------
+
 
 2/22/17 new layout, added icons
 ![alt text](https://cloud.githubusercontent.com/assets/13059369/23243967/e852799a-f947-11e6-9ddf-25722fb47eef.png)
