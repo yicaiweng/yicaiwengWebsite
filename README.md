@@ -1,7 +1,7 @@
 # yicaiwengWebsite
 personal website using angularJS
 
-2/22/17
+2/22/17 new layout, added icons
 ![alt text](https://cloud.githubusercontent.com/assets/13059369/23243967/e852799a-f947-11e6-9ddf-25722fb47eef.png)
 
 ![alt text](https://cloud.githubusercontent.com/assets/13059369/23243970/ea2f95b8-f947-11e6-84a3-867c624ac95b.png)
