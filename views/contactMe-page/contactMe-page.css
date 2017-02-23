@@ -1,5 +1,5 @@
 .contactMePage{
-  background-color: #F4AD58;
+  background-color: #F1C043;
   color: #ffffff;
   margin: auto;
   min-height: 600px;
@@ -9,4 +9,5 @@
 
 .contactMePage a{
   text-decoration: none;
+  color: #f7f7f7;
 }
