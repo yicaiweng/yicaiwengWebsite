@@ -7,11 +7,11 @@
   min-height: 80px;
   text-transform: uppercase;
   border-bottom: 4px solid #287BDD;
+  color: #f7f7f7;
 }
 
 .nav-left{
   float: left;
-  color: #ffffff;
   padding: 0 0 0 30px;
   margin-top: 20px;
 }
@@ -22,9 +22,12 @@
   font-size: 20px;
 }
 
+/*.nav-left a:visited{
+  color: #f7f7f7;
+}*/
+
 .nav-right{
   float: right;
-  color: #ffffff;
   font-size: 20px;
 }
 
@@ -40,3 +43,7 @@
   font-weight: bold;
   color: #287BDD;
 }
+
+/*.nav-right a:visited{
+  color: #f7f7f7;
+}*/
