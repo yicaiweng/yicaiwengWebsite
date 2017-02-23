@@ -1,6 +1,6 @@
 # yicaiwengWebsite
 ## Demo single page application website using HTML/CSS/AngularJS
-### live demo at yicaiweng.herokuapp.com
+### live demo at https://yicaiweng.herokuapp.com
 
 2/23/17 <br>
 new color on resume page and contact me page, better readability. <br>
