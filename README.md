@@ -1,9 +1,9 @@
 # yicaiwengWebsite
 ## Demo single page application website using HTML/CSS/AngularJS
+### live demo at yicaiweng.herokuapp.com
 
-
-2/23/17 
-new color on resume page and contact me page, better readability. 
+2/23/17 <br>
+new color on resume page and contact me page, better readability. <br>
 added social media icons on the footer, click open new page
 
 ![alt text](https://cloud.githubusercontent.com/assets/13059369/23264510/315f10bc-f9a7-11e6-80b3-c130964ea2e8.png)
