@@ -14,7 +14,9 @@ added social media icons on the footer, click open new page
 ------------------------------------------------------------------------------------------------------------------------------
 
 
-2/22/17 new layout, added icons
+2/22/17 <br>
+new layout, added icons
+
 ![alt text](https://cloud.githubusercontent.com/assets/13059369/23243967/e852799a-f947-11e6-9ddf-25722fb47eef.png)
 
 ![alt text](https://cloud.githubusercontent.com/assets/13059369/23243970/ea2f95b8-f947-11e6-84a3-867c624ac95b.png)
@@ -26,6 +28,7 @@ added social media icons on the footer, click open new page
 ------------------------------------------------------------------------------------------------------------------------------
 
 2/21/17
+
 ![alt text](https://cloud.githubusercontent.com/assets/13059369/23198514/b9a1a39c-f88d-11e6-92e7-f69c7e5afdc4.png)
 
 ![alt text](https://cloud.githubusercontent.com/assets/13059369/23198515/bbd381c6-f88d-11e6-90bb-09c8b3afa694.png)
