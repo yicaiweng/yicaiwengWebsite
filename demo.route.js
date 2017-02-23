@@ -52,24 +52,3 @@ angular.module('demo',['ui.router','views', 'components'])
         component:'resumePage'
       })
   });
-
-
-  // angular.module('demo',['ui.router'])
-  //   .config(function($stateProvider){
-  //     $stateProvider
-  //       .state('home', {
-  //         templateUrl:'/views/welcome/welcome.html'
-  //       })
-  //       .state('default', {
-  //         templateUrl:"/views/welcome/welcome.html"
-  //       })
-  //       .state('about',{
-  //         templateUrl:"/views/about/about.html"
-  //       })
-  //       .state('contactMe',{
-  //         templateUrl:"/views/contactMe/contactMe.html"
-  //       })
-  //       .state('resume',{
-  //         templateUrl:"/views/resume/resume.html"
-  //       })
-  //   })
