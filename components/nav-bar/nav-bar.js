@@ -12,11 +12,11 @@ angular.module('nav-bar', []).component('navBar', {
           ctrl.welcomeClass = 'highlight';
         } else if (option == 'about'){
           ctrl.aboutClass = 'highlight';
+        }  else if (option == 'resume'){
+          ctrl.resumeClass = 'highlight';
         } else if (option == 'contactMe'){
           ctrl.contactMeClass = 'highlight';
-        } else if (option == 'resume'){
-          ctrl.resumeClass = 'highlight';
-        }
+        } 
       };
       highlight();
 

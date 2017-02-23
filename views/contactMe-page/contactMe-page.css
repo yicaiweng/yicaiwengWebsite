@@ -1,5 +1,5 @@
 .contactMePage{
-  background-color: #F1C043;
+  background-color: #C0C0C0;
   color: #ffffff;
   margin: auto;
   min-height: 600px;
@@ -10,4 +10,40 @@
 .contactMePage a{
   text-decoration: none;
   color: #f7f7f7;
+}
+
+.contactMePage p{
+  margin-top: -1em;
+}
+.form {
+  padding: 5px;
+  text-align: center;}
+
+.form input{
+  font-size: 20px;
+  text-align: center;
+  width: 30%;
+  border-radius: 3%;
+  border: none;
+}
+
+.form textarea{
+  font-family: 'Lato';
+  font-size: 20px;
+  text-align: center;
+  margin-top: 10px;
+  width: 30%;
+  height: 200px;
+  border-radius: 3%;
+  border: none;
+}
+
+.form button{
+  font-size: 20px;
+  width: 30%;
+  text-align: center;
+  background-color: #287BDD;
+  border: none;
+  color: #f7f7f7;
+  border-radius: 3%;
 }
