@@ -20,7 +20,7 @@
 }
 
 .skills{
-  float:right;
+  float:left;
   width: 50%;
   padding: 5px;
   min-height: 174px;
@@ -44,4 +44,11 @@
 .courses a{
   text-decoration: none;
   color: #f7f7f7;
+}
+
+@media(max-width: 768px){
+  .education,
+  .skills,{
+    float: none;
+  }
 }

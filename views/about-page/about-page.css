@@ -10,13 +10,11 @@
   float:left;
 }
 
+.aboutContent{
+  margin-top: 5em;
+}
 .aboutpage  h2{
   text-align: center;
-}
-
-.aboutpage img{
-  display: block;
-  margin-top: 2em;
 }
 
 .content{
@@ -27,4 +25,14 @@
 
 .content p{
   text-indent: 50px;
+}
+
+@media(max-width: 768px){
+  .profile{
+    float: none;
+    margin-top: -3em;
+  }
+  .content{
+    margin: 0;
+  }
 }

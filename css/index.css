@@ -5,6 +5,7 @@ body{
   padding: 0;
   margin: 0;
   background: #f4f4f4;
+  text-align: center;
 }
 
 /*global*/
@@ -34,3 +35,9 @@ body{
   font-size: 30px;
   text-align: center;
   /*margin-top: -2em;*/
+
+/*@media(max-width: 768px){
+  .container{
+    font-size: 12px;
+  }
+}*/
