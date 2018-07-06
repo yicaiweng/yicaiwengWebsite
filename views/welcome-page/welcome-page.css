@@ -1,9 +1,11 @@
 .welcome{
   background-color: #5FAE99;
-  color: #ffffff;
+  color: #f7f7f7;
   margin: auto;
   min-height: 600px;
   text-align: center;
+  /*background: url('/img/jacksonSquare.jpg') no-repeat -650px -400px;*/
+
 }
 
 .welcome h2{

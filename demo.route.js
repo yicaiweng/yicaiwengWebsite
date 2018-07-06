@@ -1,30 +1,3 @@
-//
-// angular.module('demo', ['ngRoute'])
-//
-// .config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider){
-// 	$routeProvider
-// 		.when('/',{
-// 			templateUrl: 'views/welcome/welcome.html'
-// 		})
-// 		.when('/welcome',{
-// 			templateUrl:'/views/welcome/welcome.html'
-// 		})
-// 		.when('/about',{
-// 			templateUrl:'/views/about/about.html'
-// 		})
-// 		.when('/contact_me',{
-// 			templateUrl:'/views/contact_me/contact_me.html'
-// 		})
-// 		.when('/resume',{
-// 			templateUrl: '/views/resume/resume.html'
-// 		})
-// 		.otherwise({
-// 			redirectTo: '/'
-// 		});
-//
-// 		$locationProvider.html5Mode({enabled: true, requireBase: false});
-//
-// }]);
 
 angular.module('demo',['ui.router','views', 'components'])
   .config(function($stateProvider, $urlRouterProvider){

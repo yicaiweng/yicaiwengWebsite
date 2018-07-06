@@ -34,3 +34,61 @@ body{
   font-size: 30px;
   text-align: center;
   /*margin-top: -2em;*/
+
+@media(max-width: 768px) {
+  *{
+    margin: 0;
+    padding: 0;
+  }
+
+  .nav-left,
+  .nav-right,
+  .profile,
+  .education,
+  .skills{
+    float: none;
+    width: 100%;
+  }
+
+  .nav-left{
+    text-align: center;
+    width: 100%;
+  }
+
+  .nav-right{
+    text-align: center;
+    display: block;
+    width: 100%;
+  }
+
+  .firstRow{
+    width: auto;
+  }
+
+  .education{
+    width: 100%;
+  }
+
+  .skills{
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .employee{
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .courses{
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .profile{
+    text-align: center;
+  }
+  .content{
+    text-align: center;
+
+  }
+}

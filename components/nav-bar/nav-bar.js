@@ -13,10 +13,13 @@ angular.module('nav-bar', []).component('navBar', {
         } else if (option == 'about'){
           ctrl.aboutClass = 'highlight';
         }  else if (option == 'resume'){
+          console.log("Hello2");
           ctrl.resumeClass = 'highlight';
         } else if (option == 'contactMe'){
+          console.log("Hello");
           ctrl.contactMeClass = 'highlight';
-        } 
+        } else {
+        }
       };
       highlight();
 

@@ -6,6 +6,7 @@
   min-height: 600px;
   font-size: 30px;
 }
+
 .profile{
   float:left;
 }
@@ -22,7 +23,7 @@
 .content{
   font-size: 29px;
   margin-left:  350px;
-  margin-top: -4em;
+  margin-top: 3em;
 }
 
 .content p{
